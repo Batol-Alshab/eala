@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grid
+        </title>
+    </head>
+    <body>
+        <style>
+            .grid{
+                display:flex;
+                justify-content: space-between;
+                border: dotted 0.2em rgb(0, 255, 234);
+                padding: 0.2em;
+                margin-bottom:1.8em;
+                margin-top: 0.2em;
+            }
+            .one, .two , .three{
+                display:flex;
+                flex-direction: column;
+                flex: 1;
+                margin: 1em;
+                box-shadow: 0.4em 0.4em 0.7em rgba(29, 241, 230, 0.164);
+                padding-bottom: 0.3em;
+            }
+            .one-two,.two-two,.three-two{
+                display:flex;
+                flex-direction: row;
+                flex: 1;
+                border-top: solid 0.1em rgb(23, 224, 224);
+                padding-top: 1em;
+            }
+            .one-two-one,.two-two-one,.three-two-one{    
+                width: 2em;
+                margin-right:1em ;
+            }
+            .one-two-two,.two-two-two,.three-two-two{
+                flex: 1;
+                justify-content: center;    
+            }
+            img{
+               width: 80%;
+            }
+            .im{     
+                border-radius: 50%; 
+                width: 150%;
+            }
+            button{
+                background-color:rgba(29, 241, 230, 0.952) ;
+                padding: 0.5em 3em;
+                text-align: center;
+                border-radius: 20em;
+                border: solid 0.3em rgb(201, 243, 240);
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+            }
+            button:hover{
+                transition: color 0.2s;
+                background-color: rgba(0, 0, 0, 0.37);  
+                color: white;
+            }
+            .buy{
+                text-align:center;
+                margin-bottom: 0;
+            }
+            p{
+                text-align: right;
+                padding-right: 2em;
+                margin: 0;
+            }
+            h1{
+                text-align: center;
+                font-size: 3em;
+                color:rgba(39, 207, 199, 0.952) ;
+            }
+        </style>
+        <h1>
+            حقائب إيلا
+        </h1>
+        <div class="grid">
+            <div class="one">
+                <div class="one-one">
+                    <img src="one.jfif" alt="">
+                </div>
+                <div class="one-two">
+                    <div class="one-two-one">
+                        <img class="im" src="one-one.jpg" alt="">
+                    </div>
+                    <div class="one-two-two">    
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>     
+                       <p>
+                            <a href="">details</a>
+                       </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two">
+                <div class="two-one">
+                    <img src="two.jfif" alt="">
+                </div>
+                <div class="two-two">
+                    <div class="two-two-one">
+                        <img class="im" src="one-two.jpg" alt="">
+                    </div>
+                    <div class="two-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                        <p>
+                           <a href="">details</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="three">
+                <div class="three-one">
+                    <img src="three.jfif" alt="">
+                </div>
+                <div class="three-two">
+                    <div class="three-two-one">
+                        <img class="im" src="one-three.jpg" alt="">
+                    </div>
+                    <div class="three-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                            <p>
+                                <a href="">details</a>
+                           </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="grid">
+            <div class="one">
+                <div class="one-one">
+                    <img src="aa.jfif" alt="">
+                </div>
+                <div class="one-two">
+                    <div class="one-two-one">
+                        <img class="im" src="a.jfif" alt="">
+                    </div>
+                    <div class="one-two-two">    
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>     
+                       <p>
+                            <a href="">details</a>
+                       </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two">
+                <div class="two-one">
+                    <img src="bb.jfif" alt="">
+                </div>
+                <div class="two-two">
+                    <div class="two-two-one">
+                        <img class="im" src="b.jfif" alt="">
+                    </div>
+                    <div class="two-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                        <p>
+                           <a href="">details</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="three">
+                <div class="three-one">
+                    <img src="cc.jfif" alt="">
+                </div>
+                <div class="three-two">
+                    <div class="three-two-one">
+                        <img class="im" src="c.jfif" alt="">
+                    </div>
+                    <div class="three-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                            <p>
+                                <a href="">details</a>
+                           </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="grid">
+            <div class="one">
+                <div class="one-one">
+                    <img src="aa1.jfif" alt="">
+                </div>
+                <div class="one-two">
+                    <div class="one-two-one">
+                        <img class="im" src="a.jfif" alt="">
+                    </div>
+                    <div class="one-two-two">    
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>     
+                       <p>
+                            <a href="">details</a>
+                       </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two">
+                <div class="two-one">
+                    <img src="bb1.jfif" alt="">
+                </div>
+                <div class="two-two">
+                    <div class="two-two-one">
+                        <img class="im" src="b1.jfif" alt="">
+                    </div>
+                    <div class="two-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                        <p>
+                           <a href="">details</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="three">
+                <div class="three-one">
+                    <img src="cc1.jfif" alt="">
+                </div>
+                <div class="three-two">
+                    <div class="three-two-one">
+                        <img class="im" src="c1.jfif" alt="">
+                    </div>
+                    <div class="three-two-two">
+                        <p class="buy">
+                            <button>BUY</button>
+                        </p>
+                            <p>
+                                <a href="">details</a>
+                           </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>
